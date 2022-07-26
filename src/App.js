@@ -1,4 +1,5 @@
 import React from "react";
+import text from "./Text";
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
         App + Webpack + Babel
         <h1>Main Component Start!</h1>
         <h2>webpack watch test</h2>
+        <Text></Text>
       </div>
     </>
   );
